@@ -1,0 +1,219 @@
+/*
+width 1440 - 1347 = 93
+*/
+body {
+    position: absolute;
+    width: 1347px;/*width: 1440px;*/
+    height: 5020px;
+    left: 0px;
+    top: 0px;
+    background: #F5F5F5;
+    border: 1px solid #000000;
+}
+
+.topo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    position: absolute;
+    height: 488px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    border: 1px solid #000000;
+}
+
+.menu-principal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 32px;
+    position: static;
+    width: 1043px;
+    height: 88px;
+    left: 152px;
+    top: 0px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 32px;
+    border: 1px solid #000000;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    position: static;/*absolute*/
+    width: 134px;
+    height: 24px;
+    left: 0px;
+    top: 32px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px -33px;
+    border: 1px solid #000000;
+}
+
+.imagem-logo {
+    position: static;
+    width: 24px;
+    height: 24px;
+}
+
+.nome-logo {
+    position: static;
+    width: 102px;
+    height: 19px;
+    left: 32px;
+    top: 2.5px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: #464646;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 8px 8px;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 0px 0px 0px;
+    position: static;
+    width: 699px;
+    height: 19px;
+    left: 494px;
+    top: 34.5px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px -33px;
+    border: 1px solid #000000;
+}
+
+.link-itens {
+    position: static;
+    height: 19px;
+    top: 0px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #464646;
+    flex: none;
+    flex-grow: 0;
+    display: inline;
+    align-items: center;
+    text-decoration: none;
+    padding-right: 46px;
+}
+
+#mail {
+    font-weight: bold;
+}
+
+.apresentacao {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    position: static;
+    width: 1107px;
+    /*width: 1136px;*/
+    height: 368px;
+    /*left: 152px;*/
+    /*top:120px;*/
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 120px 0px 0px 119px;
+    border: 1px solid #000000;
+}
+
+.conteudo-apresentacao {
+    display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 0px;
+    position: static;
+    width: 751px;
+    height: 246px;
+    left: 0px;
+    top: 61px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 208px 0px;
+    border: 1px solid #000000;
+}
+
+#titulo {
+    position: static;
+    width: 751px;
+    height: 122px;
+    left: 0px;
+    top: 0px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 53px;
+    line-height: 61px;
+    color: #464646;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 0px 0px 0px 0px;
+}
+
+.texto1 {
+    position: static;
+    left: 0px;
+    top: 146px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 26px;
+    color: #464646;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 24px 0px 0px 0px;
+    display: inline;
+    text-align: justify;
+    border: 1px solid #000000;
+}
+
+.imagem {
+    position: static;
+    width: 368px;
+    height: 368px;
+    left: 768;
+    top: 0px;
+    background: url(foto.jpg) no-repeat center;
+    background-size: cover;
+    border-radius: 50%;
+    border: 1px solid #000000;
+}
+
+/*
+.conteudo-sobre-mim {
+    position: static;
+    width: 751px;
+    height: 246px;
+    border: 1px solid #000000;
+}
+*/
