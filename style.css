@@ -209,11 +209,158 @@ body {
     border: 1px solid #000000;
 }
 
-/*
-.conteudo-sobre-mim {
+.lista-redes-sociais {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
     position: static;
-    width: 751px;
-    height: 246px;
+    width: 467px;
+    height: 24px;
+    left: 0px;
+    top: 222px;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 21px 0px;
     border: 1px solid #000000;
 }
-*/
+
+.itens-redes-sociais {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    position: static;
+    width: 80px;
+    height: 24px;
+    left: 0px;
+    top: 0px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 32px;
+}
+
+#links-redes-sociais {    
+    width: 88px;
+    height: 19px;
+    left: 0px;
+    top: 2.5px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #464646;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px;
+}
+
+.secao-sobre-mim {
+    width: 1346px;
+    height: 383px;
+    background: #EAF2FD;
+    margin-top: 32px;
+    border: 1px solid #000000;
+}
+
+.sobre {
+    width: 1136px;
+    height: 255px;
+    margin-top: 64px;
+    margin-left: 103px;
+    border: 1px solid #000000;
+}
+
+#titulo-sobre-mim {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 38px;
+    color: #464646;
+}
+
+#texto {
+    position: static;
+    width: 751px;
+    height: 133px;
+    left: 0px;
+    top: 54px;    
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #464646;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 16px 0px;
+}
+
+.secao-skills-e-hobbies {
+    width: 1346px;
+    height: 1245px;
+    margin-top: 32px;
+    border: 1px solid #000000;
+}
+
+.area-de-skills, .area-de-hobbies {
+    width: 1043px;
+    height: 244px;
+    margin-left: 151px;
+    border: 1px solid #000000;
+}
+
+#titulo-skills {
+    text-align: center;
+    font-family: 'Raleway';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: bold;
+    color: #464646;
+}
+
+.caixa-skills {
+    width: 1042px;
+    height: 174px;
+    margin-top: 38px;
+    border: 1px solid #000000;
+}
+
+.lista-skills {
+    display: flex;
+    margin: 0px -7px;
+}
+
+.item-skills {
+    display: inline;
+    width: 160.33px;
+    height: 174px;
+    background: #FFFFFF;
+    margin: auto;
+    border: 1px solid #000000;
+}
+
+.img-skills {
+    margin-top: 94px;
+    margin-left: 16px;
+}
+
+.titulos-skills {
+    margin-top: 8px;
+    margin-left: 16px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    color: #464646;
+}
+
+#area-de-hobbies {
+    margin-top: 88px;
+}
