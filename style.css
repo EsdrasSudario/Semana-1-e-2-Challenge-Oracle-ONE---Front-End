@@ -316,7 +316,7 @@ body {
     border: 1px solid #000000;
 }
 
-#titulo-skills {
+#titulo-skills, #titulo-hobbies {
     text-align: center;
     font-family: 'Raleway';
     font-size: 32px;
@@ -325,19 +325,19 @@ body {
     color: #464646;
 }
 
-.caixa-skills {
+.caixa-skills, .caixa-hobbies {
     width: 1042px;
     height: 174px;
     margin-top: 38px;
     border: 1px solid #000000;
 }
 
-.lista-skills {
+.lista-skills, .lista-hobbies {
     display: flex;
     margin: 0px -7px;
 }
 
-.item-skills {
+.item-skills, .item-hobbies {
     display: inline;
     width: 160.33px;
     height: 174px;
@@ -346,12 +346,12 @@ body {
     border: 1px solid #000000;
 }
 
-.img-skills {
+.img-skills, .img-hobbies {
     margin-top: 94px;
     margin-left: 16px;
 }
 
-.titulos-skills {
+.titulos-skills, .titulos-hobbies {
     margin-top: 8px;
     margin-left: 16px;
     font-family: 'Raleway';
@@ -361,6 +361,13 @@ body {
     color: #464646;
 }
 
-#area-de-hobbies {
+#hobbies {
     margin-top: 88px;
+}
+
+.area-formacao {
+    width: 1345px;
+    height: 581px;
+    margin-top: 83px;
+    border: 1px solid #000000;
 }
