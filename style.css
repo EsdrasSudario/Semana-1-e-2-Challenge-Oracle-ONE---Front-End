@@ -369,5 +369,38 @@ body {
     width: 1345px;
     height: 581px;
     margin-top: 83px;
+    background: #EAF2FD;
+    border: 1px solid #000000;
+}
+
+.titulo-formacao {
+    text-align: center;
+    margin-top: 82px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 38px;
+    color: #464646;
+}
+
+.caixa-formação {
+    width: 1136px;
+    height: 347px;
+    margin-top: 32px;
+    margin-left: 102px;
+    border: 1px solid #000000;
+}
+
+.lista-formacao {
+    display: flex;
+    margin: 0px -7px;
+}
+
+.item-formacao {
+    width: 368px;
+    height: 347px;
+    display: inline;
+    margin: auto;
     border: 1px solid #000000;
 }
