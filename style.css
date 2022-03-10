@@ -384,7 +384,7 @@ body {
     color: #464646;
 }
 
-.caixa-formação {
+.caixa-formacao {
     width: 1136px;
     height: 347px;
     margin-top: 32px;
@@ -404,3 +404,99 @@ body {
     margin: auto;
     border: 1px solid #000000;
 }
+
+.texto-formacao {
+    margin-top: 8px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    color: #464646;
+}
+
+.paragrafo-formacao {
+    margin-top: 8px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #464646;
+}
+
+.secao-experiencia {
+    position: static;
+    width: 1136px;
+    height: 1886px;
+    margin: 32px auto;
+    border: 1px solid #000000;
+}
+
+.título-experiencia {
+    text-align: center;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    color: #464646;
+}
+
+.caixa-experiencia1 {
+    width: 1136px;
+    height: 406px;
+    margin-top: 32px;
+    border: 1px solid #000000;
+}
+
+.caixa-descricao-exp {
+    display: inline-block;
+    position: absolute;
+    left: 893px;
+    margin-top: 147px;
+    width: 348px;
+    height: 112px;
+    border: 1px solid #000000;
+}
+
+.titulo-projeto {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    color: #464646;
+}
+
+.texto-projeto {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #464646;
+    margin-top: 8px;
+}
+
+.botao-projeto {
+    width: 116px;
+    height: 51px;
+    border: 1px solid #2A7AE4;
+    box-sizing: border-box;
+    margin-top: 8px;
+    color: #2A7AE4;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+#bt-projeto {
+    background: #2A7AE4;
+    color: #FFFFFF;
+    margin-left: 16px;
+}
+
+/*No final tirar as bordas*/
