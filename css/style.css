@@ -428,7 +428,7 @@ body {
 .secao-experiencia {
     position: static;
     width: 1136px;
-    height: 1886px;
+    height: 1798px;
     margin: 32px auto;
     border: 1px solid #000000;
 }
@@ -443,7 +443,7 @@ body {
     color: #464646;
 }
 
-.caixa-experiencia1 {
+.caixa-experiencia1, .caixa-experiencia2, .caixa-experiencia3, .caixa-experiencia4 {
     width: 1136px;
     height: 406px;
     margin-top: 32px;
@@ -457,6 +457,16 @@ body {
     margin-top: 147px;
     width: 348px;
     height: 112px;
+    border: 1px solid #000000;
+}
+
+.caixa-descricao-exp2 {
+    display: inline-block;
+    position: absolute;
+    left: 105px;
+    margin-top: -280px;
+    width: 368px;
+    height: 138px;
     border: 1px solid #000000;
 }
 
@@ -498,5 +508,6 @@ body {
     color: #FFFFFF;
     margin-left: 16px;
 }
+
 
 /*No final tirar as bordas*/
