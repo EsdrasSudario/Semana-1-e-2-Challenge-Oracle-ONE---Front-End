@@ -4,7 +4,7 @@ width 1440 - 1347 = 93
 body {
     position: absolute;
     width: 1347px;/*width: 1440px;*/
-    height: 5020px;
+    height: 4908px;
     left: 0px;
     top: 0px;
     background: #F5F5F5;
@@ -509,5 +509,46 @@ body {
     margin-left: 16px;
 }
 
+.secao-contato {
+    width: 1345px;
+    height: 788px;
+    margin-top: -32px;
+    display: flex;
+    border: 1px solid #000000;
+}
 
+.secao-contato-imagem {
+    width: 464px;
+    height: 593px;
+    margin-top: 129.5px;
+    margin-left: 106px;
+}
+
+.secao-contato-titulo {
+    margin-top: 128px;
+    margin-left: 16px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 32px;
+    color: #464646;
+}
+
+.secao-contato-paragrafo {
+    margin-top: 174px;
+    margin-left: -115px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #464646;
+}
+
+.secao-contato-form-nome {
+    display: flex;
+    margin-top: 245px;
+    margin-left: -407px;
+}
 /*No final tirar as bordas*/
