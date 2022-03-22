@@ -14,28 +14,28 @@
                 <div class="menu-principal">
                     <div class="logo">
                         <img class="imagem-logo" src="./img/Vector.png">
-                        <p class="nome-logo">Fulana de Tal</p>
+                        <p class="nome-logo">Esdras Sudário da Costa</p>
                     </div>
                     <nav class="links">
-                            <a class="link-itens" href="#sobre-mim">Sobre Mim</a>
-                            <a class="link-itens" href="#skills">Skills</a>
-                            <a class="link-itens" href="#hobbies">Hobbies</a>
-                            <a class="link-itens" href="#formacao">Formação</a>
-                            <a class="link-itens" href="#projetos">Projetos</a>
-                            <a class="link-itens" id="mail" href="#contato">contato@fulana.com</a>
+                        <a class="link-itens" href="#sobre-mim">Sobre Mim</a>
+                        <a class="link-itens" href="#skills">Skills</a>
+                        <a class="link-itens" href="#hobbies">Hobbies</a>
+                        <a class="link-itens" href="#formacao">Formação</a>
+                        <a class="link-itens" href="#projetos">Projetos</a>
+                        <a class="link-itens" id="mail" href="#contato">Contato</a>
                     </nav>
                 </div>
             </div>
         </header>
         <main>
             <section class="apresentacao">
-                <section class="conteudo-apresentacao" id="conteudo-apresentacao">
-                    <h1 id="titulo">Olá, meu nome é Fulana de Tal e construo páginas web</h1>
-                    <p class="texto1">Eu sou formada em lorem ipsum sit amet consectetur e atualmente estou participando no projeto Oracle ONE na Alura.</p>
+                <section class="conteudo-apresentacao">
+                    <h1 id="titulo">Olá, meu nome é Esdras e sou desenvolvedor Front-End</h1>
+                    <p class="texto1">Eu sou formado em Sistemas de Informação e Gestão de Empresas, e atualmente estou participando no projeto Oracle ONE na Alura.</p>
                     <ul class="lista-redes-sociais">
-                        <li class="itens-redes-sociais"><a id="links-redes-sociais">Github 🡥</a></li>
-                        <li class="itens-redes-sociais"><a id="links-redes-sociais">Linkedin 🡥</a></li>
-                        <li class="itens-redes-sociais"><a id="links-redes-sociais">Currículo 🡥</a></li>
+                        <li class="itens-redes-sociais"><a class="links-redes-sociais" href="https://github.com/EsdrasSudario">Github 🡥</a></li>
+                        <li class="itens-redes-sociais"><a class="links-redes-sociais" href="https://www.linkedin.com/in/esdras-sudário-b4b820109/">Linkedin 🡥</a></li>
+                        <li class="itens-redes-sociais"><a class="links-redes-sociais" href="https://github.com/EsdrasSudario">Currículo 🡥</a></li>
                     </ul>
                 </section>
                 <img class="imagem">
@@ -178,20 +178,35 @@
         <section class="contato" id="contato">
             <div class="caixa-contato">
                 <img class="imagem-contato" src="./img/telefone.png">
-                <div class="caixa-formulario-contato">
-                    <div class="contato-topo">
+                <form>
+                    <div class="caixa-formulario-contato">
+                        <div class="contato-topo">
                         <h3 class="titulo-contato">Contato</h3>
                         <h4 class="sub-titulo-contato">Quer entrar em contato comigo?<br>
                             Preencha o formulário ao lado e entrarei em contato o mais rápido possível
                         </h4>
-                    </div>
-                    <div class="caixa-formulario">
-                        <div class="div-nome">
-                            <label class="label-nome">Nome</label>
-                            <input class="input-nome" type="text" placeholder="Coloque seu nome e sobre nome">
                         </div>
+                        <div class="caixa-formulario">
+                            <div class="div-nome">
+                                <label class="label-nome" for="input-nome">Nome</label>
+                                <input class="input-nome" type="text" placeholder="Coloque seu nome e sobrenome">
+                            </div>
+                            <div class="div-nome">
+                                <label class="label-nome" for="input-nome">E-mail</label>
+                                <input class="input-nome" type="text" placeholder="Coloque seu e-mail">
+                            </div>
+                            <div class="div-nome">
+                                <label class="label-nome" for="input-nome">Assunto</label>
+                                <input class="input-nome" type="text" placeholder="Coloque o assunto do seu e-mail">
+                            </div>
+                            <div class="area-texto">
+                                <label class="label-mensagem">Mensagem</label>
+                                <textarea class="text-area"></textarea>
+                            </div>
+                        </div>
+                        <input class="botao" type="submit" value="Enviar mensagem">
                     </div>
-                </div>
+                </form>
             </div>
         </section>
         <footer class="rodape">

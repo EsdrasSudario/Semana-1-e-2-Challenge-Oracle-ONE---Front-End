@@ -8,20 +8,20 @@ body {
     left: 0px;
     top: 0px;
     background: #F5F5F5;
-    border: 1px solid #000000;
+    /*border: 1px solid #000000;*/
 }
 
 .topo {
+    position: absolute;
+    height: 488px;
+    left: 0px;
+    top: 0px;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 0px;
-    position: absolute;
-    height: 488px;
-    left: 0px;
     right: 0px;
-    top: 0px;
-    border: 1px solid #000000;
+    /*border: 1px solid #000000;*/
 }
 
 .menu-principal {
@@ -39,7 +39,7 @@ body {
     order: 0;
     flex-grow: 0;
     margin: 0px 32px;
-    border: 1px solid #000000;
+    /*border: 1px solid #000000;*/
 }
 
 .logo {
@@ -56,7 +56,7 @@ body {
     order: 0;
     flex-grow: 0;
     margin: 0px -33px;
-    border: 1px solid #000000;
+    /*border: 1px solid #000000;*/
 }
 
 .imagem-logo {
@@ -67,11 +67,11 @@ body {
 
 .nome-logo {
     position: static;
-    width: 102px;
+    width: 300px;
     height: 19px;
     left: 32px;
     top: 2.5px;
-    font-family: Raleway;
+    font-family: 'Raleway';
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
@@ -97,14 +97,14 @@ body {
     order: 1;
     flex-grow: 0;
     margin: 0px -33px;
-    border: 1px solid #000000;
+    /*border: 1px solid #000000;*/
 }
 
 .link-itens {
     position: static;
     height: 19px;
     top: 0px;
-    font-family: Raleway;
+    font-family: 'Raleway';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -138,7 +138,7 @@ body {
     order: 1;
     flex-grow: 0;
     margin: 120px 0px 0px 119px;
-    border: 1px solid #000000;
+    /*border: 1px solid #000000;*/
 }
 
 .conteudo-apresentacao {
@@ -155,7 +155,7 @@ body {
     order: 0;
     flex-grow: 0;
     margin: 208px 0px;
-    border: 1px solid #000000;
+    /*border: 1px solid #000000;*/
 }
 
 #titulo {
@@ -194,19 +194,7 @@ body {
     margin: 24px 0px 0px 0px;
     display: inline;
     text-align: justify;
-    border: 1px solid #000000;
-}
-
-.imagem {
-    position: static;
-    width: 368px;
-    height: 368px;
-    left: 768;
-    top: 0px;
-    background: url(foto.jpg) no-repeat center;
-    background-size: cover;
-    border-radius: 50%;
-    border: 1px solid #000000;
+    /*border: 1px solid #000000;*/
 }
 
 .lista-redes-sociais {
@@ -223,7 +211,7 @@ body {
     order: 2;
     flex-grow: 0;
     margin: 21px 0px;
-    border: 1px solid #000000;
+    /*border: 1px solid #000000;*/
 }
 
 .itens-redes-sociais {
@@ -242,12 +230,12 @@ body {
     margin: 0px 32px;
 }
 
-#links-redes-sociais {    
+.links-redes-sociais {
     width: 88px;
     height: 19px;
     left: 0px;
     top: 2.5px;
-    font-family: Raleway;
+    font-family: 'Raleway';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -257,6 +245,19 @@ body {
     order: 0;
     flex-grow: 0;
     margin: 0px;
+    text-decoration: none;
+}
+
+.imagem {
+    position: static;
+    width: 368px;
+    height: 368px;
+    left: 768;
+    top: 0px;
+    background: url(foto.jpg) no-repeat center;
+    background-size: cover;
+    border-radius: 50%;
+    /*border: 1px solid #000000;*/
 }
 
 .secao-sobre-mim {
@@ -264,7 +265,7 @@ body {
     height: 383px;
     background: #EAF2FD;
     margin-top: 32px;
-    border: 1px solid #000000;
+    /*border: 1px solid #000000;*/
 }
 
 .sobre {
@@ -272,7 +273,7 @@ body {
     height: 255px;
     margin-top: 64px;
     margin-left: 103px;
-    border: 1px solid #000000;
+    /*border: 1px solid #000000;*/
 }
 
 #titulo-sobre-mim {
@@ -306,14 +307,14 @@ body {
     width: 1346px;
     height: 1245px;
     margin-top: 32px;
-    border: 1px solid #000000;
+    /*border: 1px solid #000000;*/
 }
 
 .area-de-skills, .area-de-hobbies {
     width: 1043px;
     height: 244px;
     margin-left: 151px;
-    border: 1px solid #000000;
+    /*border: 1px solid #000000;*/
 }
 
 #titulo-skills, #titulo-hobbies {
@@ -329,7 +330,7 @@ body {
     width: 1042px;
     height: 174px;
     margin-top: 38px;
-    border: 1px solid #000000;
+    /*border: 1px solid #000000;*/
 }
 
 .lista-skills, .lista-hobbies {
@@ -343,7 +344,7 @@ body {
     height: 174px;
     background: #FFFFFF;
     margin: auto;
-    border: 1px solid #000000;
+    /*border: 1px solid #000000;*/
 }
 
 .img-skills, .img-hobbies {
@@ -370,7 +371,7 @@ body {
     height: 581px;
     margin-top: 83px;
     background: #EAF2FD;
-    border: 1px solid #000000;
+    /*border: 1px solid #000000;*/
 }
 
 .titulo-formacao {
@@ -389,7 +390,7 @@ body {
     height: 347px;
     margin-top: 32px;
     margin-left: 102px;
-    border: 1px solid #000000;
+    /*border: 1px solid #000000;*/
 }
 
 .lista-formacao {
@@ -402,7 +403,7 @@ body {
     height: 347px;
     display: inline;
     margin: auto;
-    border: 1px solid #000000;
+    /*border: 1px solid #000000;*/
 }
 
 .texto-formacao {
@@ -430,7 +431,7 @@ body {
     width: 1136px;
     height: 1798px;
     margin: 32px auto;
-    border: 1px solid #000000;
+    /*border: 1px solid #000000;*/
 }
 
 .título-experiencia {
@@ -447,7 +448,7 @@ body {
     width: 1136px;
     height: 406px;
     margin-top: 32px;
-    border: 1px solid #000000;
+    /*border: 1px solid #000000;*/
 }
 
 .caixa-descricao-exp {
@@ -457,7 +458,7 @@ body {
     margin-top: 147px;
     width: 348px;
     height: 112px;
-    border: 1px solid #000000;
+    /*border: 1px solid #000000;*/
 }
 
 .caixa-descricao-exp2 {
@@ -467,7 +468,7 @@ body {
     margin-top: -280px;
     width: 368px;
     height: 138px;
-    border: 1px solid #000000;
+    /*border: 1px solid #000000;*/
 }
 
 .titulo-projeto {
@@ -513,25 +514,25 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 64px;
+    padding: 0px 64px 0px 64px;
     position: static;
     width: 1217px;
-    height: 788px;
-    margin-top: 32px;
+    height: 740px;
+    margin-top: 0px;
     background: #EAF2FD;
-    border: 0.5px solid #000000;
+    /*border: 0.5px solid #000000;*/
 }
 
 .caixa-contato {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 64px 0px 0px;
+    padding: 0px 0px 0px 0px;
     position: static;
     width: 1136px;
     height: 660px;
-    margin-top: 30px;
-    border: 0.5px solid #000000;
+    margin-top: 0px;
+    /*border: 0.5px solid #000000;*/
 }
 
 .imagem-contato {
@@ -550,7 +551,7 @@ body {
     height: 596px;
     margin-left: 16px;
     margin-top: 64px;
-    border: 1px solid #000000;
+    /*border: 1px solid #000000;*/
 }
 
 .contato-topo {
@@ -560,7 +561,7 @@ body {
     position: static;
     width: 656px;
     height: 84px;
-    border: 0.5px solid #000000;
+    /*border: 0.5px solid #000000;*/
 }
 
 .titulo-contato{
@@ -596,7 +597,7 @@ body {
     width: 656px;
     height: 397px;
     margin-top: 32px;
-    border: 0.5px solid #000000;
+    /*border: 0.5px solid #000000;*/
 }
 
 .div-nome {
@@ -634,6 +635,51 @@ body {
     border-bottom: #2A7AE4 solid 1px;
     outline: 0;
 }
+
+.area-texto {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: static;
+    width: 656px;
+    height: 133px;
+    background: #FFFFFF;
+}
+
+.label-mensagem {
+    position: static;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #A2A2A2;
+    margin-top: 16px;
+    margin-left: 12px;
+}
+
+.text-area {
+    width: 650px;
+    height: 100%;
+    outline: 0px;
+    border: none;
+    resize: none;
+}
+
+.botao {
+    width: 165px;
+    height: 51px;
+    margin-top: 32px;
+    background: #2A7AE4;
+    color: #FFFFFF;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    border: none;
+}
+
 .rodape {
     display: flex;
     flex-direction: row;
@@ -645,7 +691,7 @@ body {
     height: 35px;
     left: 0px;
     background: #FFFFFF;
-    border: 1px solid #000000;
+    /*border: 1px solid #000000;*/
 }
 
 .rodape-texto {
