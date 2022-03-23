@@ -13,7 +13,7 @@ body {
 
 .topo {
     position: absolute;
-    height: 488px;
+    /*height: 488px;*/
     left: 0px;
     top: 0px;
     display: flex;
@@ -403,7 +403,6 @@ body {
     height: 347px;
     display: inline;
     margin: auto;
-    /*border: 1px solid #000000;*/
 }
 
 .texto-formacao {
